@@ -141,7 +141,7 @@ function lightModeProperties() {
 function init() {
     darkMode = false;
 
-    const prefersDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    // const prefersDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
 
     const value = localStorage.getItem("dark-mode");
 
